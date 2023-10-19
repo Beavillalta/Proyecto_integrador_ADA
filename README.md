@@ -24,4 +24,4 @@ Bienvenido al juego de laberintos en texto ASCII. El objetivo es guiar al person
 
 Al inicio del juego se te pedirá que ingreses tu nombre. Luego verás un mensaje de bienvenida y comenzará el juego.
 
-Suerte encontrando la salida del laberinto!
+Suerte encontrando la salida del laberinto! Gracias.
