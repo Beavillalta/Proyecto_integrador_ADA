@@ -1,3 +1,4 @@
+import keyboard
 import random
 """
 laberinto =  [P, '#', '#' ,'#', '#',.
@@ -52,3 +53,12 @@ print(f"""
       bienvenido {nombre} 
 
 """)
+
+"""print("presiona 'm' para detener el juego")
+
+while True: 
+  if keyboard.is_pressed('m'):
+      break
+
+print("EL JUEGO HA FINALIZADO")"""
+ 
