@@ -65,3 +65,21 @@ while True:
     else:
         print("bye")
         break
+  
+# proyecto integrador parte 3
+import os
+
+def clear_terminal():
+    # Esta función borra la terminal según el sistema operativo
+    os.system('cls' if os.name == 'nt' else 'clear')
+
+def main():
+    numero = 0
+    while numero <= 50:
+        clear_terminal()
+        print(numero)
+        input("Presiona 'n' y Enter para continuar...")
+        numero += 1
+
+if __name__ == "__main__":
+    main()
