@@ -47,14 +47,14 @@ def main():
 
 main()"""
  
- #parte 4 
+""" #parte 4 
 
 from readchar import readkey, key
 import os
 import time
 
 # Mapa del laberinto
-laberinto = """..###################
+laberinto = ..###################
 ....#...............#
 #.#.#####.#########.#
 #.#...........#.#.#.#
@@ -74,7 +74,7 @@ laberinto = """..###################
 #.#.#.#.#.#...#.#...#
 #.#.#.#.#.#.#.#.#.#.#
 #.....#.....#.#.#.#.#
-###################.."""
+###################..
 
 # Función para convertir el mapa en una matriz de caracteres
 def crear_laberinto(laberinto_str):
@@ -137,7 +137,7 @@ posicion_inicial = (0, 0)
 posicion_final = (len(laberinto.split('\n')[0]) - 1, len(laberinto.split('\n')) - 1)
 
 # Iniciar el juego
-main_loop(laberinto, posicion_inicial, posicion_final)
+main_loop(laberinto, posicion_inicial, posicion_final) """
 
 # Parte 5 del Proyecto
 import random
@@ -220,7 +220,10 @@ class JuegoArchivo(Juego):
          super().__init__(lineas[1:22], posicion_inicial, posicion_final)
 
 ejecutar_juego = JuegoArchivo("mapas")
-ejecutar_juego.main_loop()
+print("Presiona la (b) para iniciar el juego")
+tecla_inicio = readkey()
+if tecla_inicio == "b":
+  ejecutar_juego.main_loop()
 
  
 
